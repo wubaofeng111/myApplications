@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B62278D91D78228200979C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278D81D78228200979C5A /* main.m */; };
+		B62278E31D78254400979C5A /* Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278E21D78254400979C5A /* Wrapper.m */; };
+		B62278E61D78258300979C5A /* Bottle.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278E51D78258300979C5A /* Bottle.m */; };
+		B62278E91D7825CB00979C5A /* Burger.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278E81D7825CB00979C5A /* Burger.m */; };
+		B62278EC1D78265300979C5A /* ColdDrink.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278EB1D78265300979C5A /* ColdDrink.m */; };
+		B62278EF1D7826C300979C5A /* VegBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278EE1D7826C300979C5A /* VegBurger.m */; };
+		B62278F21D78270000979C5A /* ChickenBurger.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278F11D78270000979C5A /* ChickenBurger.m */; };
+		B62278F51D78277200979C5A /* Coke.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278F41D78277200979C5A /* Coke.m */; };
+		B62278F81D7827A800979C5A /* Pepsi.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278F71D7827A800979C5A /* Pepsi.m */; };
+		B62278FB1D78280F00979C5A /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278FA1D78280F00979C5A /* Meal.m */; };
+		B62278FE1D782B0300979C5A /* MealBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B62278FD1D782B0300979C5A /* MealBuilder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B62278D31D78228200979C5A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B62278D51D78228200979C5A /* Builder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Builder; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62278D81D78228200979C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B62278DF1D7822A100979C5A /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		B62278E01D7824FF00979C5A /* Packing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packing.h; sourceTree = "<group>"; };
+		B62278E11D78254400979C5A /* Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrapper.h; sourceTree = "<group>"; };
+		B62278E21D78254400979C5A /* Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wrapper.m; sourceTree = "<group>"; };
+		B62278E41D78258300979C5A /* Bottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bottle.h; sourceTree = "<group>"; };
+		B62278E51D78258300979C5A /* Bottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bottle.m; sourceTree = "<group>"; };
+		B62278E71D7825CB00979C5A /* Burger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Burger.h; sourceTree = "<group>"; };
+		B62278E81D7825CB00979C5A /* Burger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Burger.m; sourceTree = "<group>"; };
+		B62278EA1D78265300979C5A /* ColdDrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColdDrink.h; sourceTree = "<group>"; };
+		B62278EB1D78265300979C5A /* ColdDrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColdDrink.m; sourceTree = "<group>"; };
+		B62278ED1D7826C300979C5A /* VegBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VegBurger.h; sourceTree = "<group>"; };
+		B62278EE1D7826C300979C5A /* VegBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VegBurger.m; sourceTree = "<group>"; };
+		B62278F01D78270000979C5A /* ChickenBurger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBurger.h; sourceTree = "<group>"; };
+		B62278F11D78270000979C5A /* ChickenBurger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBurger.m; sourceTree = "<group>"; };
+		B62278F31D78277200979C5A /* Coke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coke.h; sourceTree = "<group>"; };
+		B62278F41D78277200979C5A /* Coke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coke.m; sourceTree = "<group>"; };
+		B62278F61D7827A800979C5A /* Pepsi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pepsi.h; sourceTree = "<group>"; };
+		B62278F71D7827A800979C5A /* Pepsi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pepsi.m; sourceTree = "<group>"; };
+		B62278F91D78280F00979C5A /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		B62278FA1D78280F00979C5A /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		B62278FC1D782B0300979C5A /* MealBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealBuilder.h; sourceTree = "<group>"; };
+		B62278FD1D782B0300979C5A /* MealBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealBuilder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62278D21D78228200979C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B62278CC1D78228200979C5A = {
+			isa = PBXGroup;
+			children = (
+				B62278D71D78228200979C5A /* Builder */,
+				B62278D61D78228200979C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B62278D61D78228200979C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B62278D51D78228200979C5A /* Builder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B62278D71D78228200979C5A /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				B62278D81D78228200979C5A /* main.m */,
+				B62278DF1D7822A100979C5A /* Item.h */,
+				B62278E01D7824FF00979C5A /* Packing.h */,
+				B62278E11D78254400979C5A /* Wrapper.h */,
+				B62278E21D78254400979C5A /* Wrapper.m */,
+				B62278E41D78258300979C5A /* Bottle.h */,
+				B62278E51D78258300979C5A /* Bottle.m */,
+				B62278E71D7825CB00979C5A /* Burger.h */,
+				B62278E81D7825CB00979C5A /* Burger.m */,
+				B62278EA1D78265300979C5A /* ColdDrink.h */,
+				B62278EB1D78265300979C5A /* ColdDrink.m */,
+				B62278ED1D7826C300979C5A /* VegBurger.h */,
+				B62278EE1D7826C300979C5A /* VegBurger.m */,
+				B62278F01D78270000979C5A /* ChickenBurger.h */,
+				B62278F11D78270000979C5A /* ChickenBurger.m */,
+				B62278F31D78277200979C5A /* Coke.h */,
+				B62278F41D78277200979C5A /* Coke.m */,
+				B62278F61D7827A800979C5A /* Pepsi.h */,
+				B62278F71D7827A800979C5A /* Pepsi.m */,
+				B62278F91D78280F00979C5A /* Meal.h */,
+				B62278FA1D78280F00979C5A /* Meal.m */,
+				B62278FC1D782B0300979C5A /* MealBuilder.h */,
+				B62278FD1D782B0300979C5A /* MealBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B62278D41D78228200979C5A /* Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B62278DC1D78228200979C5A /* Build configuration list for PBXNativeTarget "Builder" */;
+			buildPhases = (
+				B62278D11D78228200979C5A /* Sources */,
+				B62278D21D78228200979C5A /* Frameworks */,
+				B62278D31D78228200979C5A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Builder;
+			productName = Builder;
+			productReference = B62278D51D78228200979C5A /* Builder */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B62278CD1D78228200979C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = friday;
+				TargetAttributes = {
+					B62278D41D78228200979C5A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B62278D01D78228200979C5A /* Build configuration list for PBXProject "Builder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B62278CC1D78228200979C5A;
+			productRefGroup = B62278D61D78228200979C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62278D41D78228200979C5A /* Builder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B62278D11D78228200979C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62278FB1D78280F00979C5A /* Meal.m in Sources */,
+				B62278FE1D782B0300979C5A /* MealBuilder.m in Sources */,
+				B62278F81D7827A800979C5A /* Pepsi.m in Sources */,
+				B62278E61D78258300979C5A /* Bottle.m in Sources */,
+				B62278F21D78270000979C5A /* ChickenBurger.m in Sources */,
+				B62278D91D78228200979C5A /* main.m in Sources */,
+				B62278F51D78277200979C5A /* Coke.m in Sources */,
+				B62278EC1D78265300979C5A /* ColdDrink.m in Sources */,
+				B62278E91D7825CB00979C5A /* Burger.m in Sources */,
+				B62278E31D78254400979C5A /* Wrapper.m in Sources */,
+				B62278EF1D7826C300979C5A /* VegBurger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B62278DA1D78228200979C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B62278DB1D78228200979C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B62278DD1D78228200979C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B62278DE1D78228200979C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B62278D01D78228200979C5A /* Build configuration list for PBXProject "Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62278DA1D78228200979C5A /* Debug */,
+				B62278DB1D78228200979C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B62278DC1D78228200979C5A /* Build configuration list for PBXNativeTarget "Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B62278DD1D78228200979C5A /* Debug */,
+				B62278DE1D78228200979C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B62278CD1D78228200979C5A /* Project object */;
+}
